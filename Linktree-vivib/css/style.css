@@ -46,4 +46,9 @@ body{
     font-size: 20px;
     margin-top: 190px;
 }
+.sub-text{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
 
