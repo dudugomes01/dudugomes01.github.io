@@ -1,0 +1,82 @@
+body{
+    background-image: url(fundu.png);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.container{
+    background-color: brown;
+}
+.foto-container{
+    text-align: center;
+}
+.foto-perfil{
+    margin-top: 20px;
+    text-align: center;
+    width: 100px;
+    border-radius: 150%;
+    border: 3px solid white;
+    padding: 3px;
+}
+h1{ 
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: "Montserrat",Sans-serif;
+    font-size: 16px;
+    
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 0;
+}
+.links{  
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0%;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.links img{   
+    width: 50px;
+    /*box-shadow: 0 0 1px 0 white;
+    border: 2px solid white;
+    border-radius: 50px;*/
+}
+.container{
+    
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    
+    
+
+
+}
+.h3-link{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 80px;
+}
+.link1{
+    color: rgb(35, 35, 144);
+    font-size: 30px;
+    margin-left: 80px;
+    text-decoration: none;
+    border-bottom: 90px;
+    
+}
+.roda-pe{
+    margin-bottom: 0;
+    background-color: white;
+    text-align: center;
+
+}
+
+
