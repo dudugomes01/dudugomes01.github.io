@@ -67,7 +67,7 @@ h2{
 .container{
     background-color: rgb(255, 255, 255);
     border-radius: 30px 30px 0 0;
-    height: 1000px; 
+    height: 2000px; 
 }
 .container p{
     /* paragrafo do sobre */
@@ -84,12 +84,15 @@ h2{
     padding-top: 20px;
     text-align: center;
     margin: auto;   
-    width: 300px;
+    width: 350px;
+}
+.navbar h3{
+    padding-left: 30px;
+    font-size: 25px;
 }
 .navbar li{       
     list-style: none;  
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid #DDDDDD;    
+    background-color: rgb(255, 255, 255);  
 }
 .navbar li a{   
     padding: 20px 0; 
@@ -100,8 +103,44 @@ h2{
     color: #0145DC;      
 }
 .navbar h4{
+    font-size: 20px;
     padding: 10px 0;
+    color: rgb(0, 0, 0);
+}
+.caixa-projeto{
+    margin: 50px 0;
+    height: 290px;
+}
+.caixa-projeto img{
+    width: 350px;  
+}
+.caixa-projeto:hover{
+    box-shadow: 0px 5px 20px 0px black;
+    border-radius: 20px;
+} 
+.caixa-projeto p{
+    padding: 10px 10px;
     color: rgb(98, 98, 98);
+}
+/* caixa-projeto1  */ 
+.caixa-projeto1{
+    margin: 50px 0;
+    height: 350px;
+}
+.caixa-projeto1 img{
+    width: 350px;  
+}
+.caixa-projeto1:hover{
+    box-shadow: 0px 5px 20px 0px black;
+    border-radius: 20px;
+} 
+.caixa-projeto1 p{
+    padding: 10px 10px;
+    color: rgb(98, 98, 98);
+}
+/* caixa-projeto1  */
+.caixa{
+    border-bottom: 2px solid #DDDDDD;  
 }
 .seta{
     width: 30px;   

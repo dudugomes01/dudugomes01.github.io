@@ -67,7 +67,7 @@ h2{
 .container{
     background-color: rgb(255, 255, 255);
     border-radius: 30px 30px 0 0;
-    height: 800px; 
+    height: 1050px; 
 }
 .container p{
     /* paragrafo do sobre */
@@ -86,10 +86,35 @@ h2{
     margin: auto;   
     width: 300px;
 }
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skills li img{
+    width: 70px;
+}
+.skills li p{
+    text-align: center;
+}
+/*       skills1       */
+.skills1{
+    display: flex;
+    justify-content: space-between;
+}
+.skills1 li img{
+    width: 70px;
+}
+.skills1 li p{
+    text-align: center;
+}
+/*       skills1       */
 .navbar li{       
     list-style: none;  
     background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid #DDDDDD;    
+        
+}
+.li-kinks-border{
+    border-bottom: 2px solid #DDDDDD;
 }
 .navbar li a{   
     padding: 20px 0; 
